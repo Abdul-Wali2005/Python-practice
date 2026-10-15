@@ -3,8 +3,8 @@ data = {
         'name': ['Ali', 'Sara', 'Ahmad', 'Wali'],
         'marks':[75 , 65, 88, 45],
         'section':['A', 'B', 'C', 'A']
-        
-        }
+         }
+
 dr= pd.DataFrame(data)
 print(dr)
 print (dr ['marks'].mean())
