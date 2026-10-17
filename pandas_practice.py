@@ -7,6 +7,8 @@ data = {
 
 dr= pd.DataFrame(data)
 print(dr)
+
+
 print (dr ['marks'].mean())
 print (dr ['marks'] > 70)
 print (dr [dr ['marks'] > 70])
